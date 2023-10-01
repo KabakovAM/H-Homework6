@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+}
+
+h1,
+h3 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(./fonts/Lato-Regular.woff2);
+}
+
+.header {
+    display: flex;
+    width: 1600px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #222;
+}
+
+.logo {
+    padding: 18px 41px 19px 231px;
+}
+
+.search {
+    padding: 28px 859px 20px 0px;
+}
+
+.menu {
+    padding: 26px 240px 20px 0px;
+}
+
+.intro {
+    display: flex;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F1E4E6;
+}
+
+.intro-title {
+    color: #222;
+    font-family: 'Lato';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 0.8;
+    margin-top: 290px;
+    margin-left: 91px;
+    width: 377px;
+    height: 93px;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.intro-title-help {
+    color: #222;
+    font-family: 'Lato';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 400px;
+}
+
+.intro-title-help span {
+    color: #F16D7F;
+    font-family: 'Lato';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.up {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    max-width: 1600px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.up-help {
+    position: relative;
+}
+
+.title {
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-align: center;
+}
+
+.title-down{
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 30%;
+    left: 140%;
+    text-align: center;
+}
+
+.title-down span{
+    color: #F16D7F;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title span {
+    color: #F16D7F;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: repeat(2, 581px);
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 54px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.title2 {
+    color: #000;
+    font-family: 'Lato';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 25px;
+    margin-left: 16px;
+}
+
+.text2 {
+    color: #5D5D5D;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 320px;
+}
+
+.price {
+    color: #F16D7F;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.main {
+    margin-top: 96px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title {
+    color: #222;
+    font-family: 'Lato';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main-text {
+    color: #9F9F9F;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.end{
+    display: flex;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.end-text{
+    color: #F26376;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    margin-top: 48px;
+    margin-bottom: 60px;
+    width: 212px;
+    height: 48px;
+    border: 1px solid #FF6A6A;
+    text-align:center;
+}
